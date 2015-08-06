@@ -26,9 +26,9 @@ TASK: [task-1 | My task to rule the world] ************************************
 
 ## Advices and remarks
 
-* Take care of integrity of your files: use :ro when mouting volumes, no reason for ansible to write anything. 
+* Take care of integrity of your files: use `:ro` when mouting volumes, no reason for ansible to write anything. 
 
-* Ansible has no real context over 2 subsequent executions, so it can be reinstantiated each time. That's why containerize it and passing --rm it's not a problem. 
+* Ansible has no real context over 2 subsequent executions, so it can be reinstantiated each time. That's why containerize it and passing `--rm` it's not a problem. 
 
 * If you plan to use Docker on the local instance, you will probably face a problem. Look at [jpetazzo/dind](https://github.com/jpetazzo/dind) first.
 
