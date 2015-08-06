@@ -1,8 +1,6 @@
 # docker-ansible
 
-Run [Ansible](http://ansible.com) from inside a container.
-
-Learn how to use Ansible on [http://docs.ansible.com/ansible/index.html]
+Run [Ansible](http://ansible.com) from inside a container ([learn how to use Ansible](http://docs.ansible.com/ansible/index.html))
 
 ![Ansible logo](https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.png)
 
